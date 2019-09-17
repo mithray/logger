@@ -1,0 +1,108 @@
+---
+
+success:
+  importance: success
+  markdown: false
+  base_logger: log
+  pretty_obj: false
+  pretty_opts: 
+    alphabetizeKeys: false
+    noColor: true
+  timestamp: true
+  timestamp_relative: true
+  new_line: true
+  highlight_paths: false
+error:
+  markdown: false
+  base_logger: error
+  pretty_obj: false
+  pretty_opts: 
+    alphabetizeKeys: false
+    noColor: true
+  timestamp: true
+  timestamp_relative: true
+  new_line: true
+  highlight_paths: false
+warn:
+  markdown: false
+  base_logger: warn
+  pretty_obj: false
+  pretty_opts: 
+    alphabetizeKeys: false
+  timestamp: true
+  timestamp_relative: true
+  new_line: true
+  highlight_paths: false
+info:
+  markdown: true
+  base_logger: info
+  pretty_obj: true
+  pretty_opts:
+    alphabetizeKeys: true
+  timestamp: true
+  timestamp_relative: true
+  new_line: true
+  highlight_paths: false
+verbose:
+  importance: muted
+  markdown: true
+  base_logger: log
+  pretty_obj: true
+  pretty_opts:
+    alphabetizeKeys: true
+  timestamp: true
+  timestamp_relative: true
+  new_line: true
+  highlight_paths: false
+debug:
+  markdown: false
+  base_logger: error
+  pretty_obj: false
+  pretty_opts:
+    alphabetizeKeys: true
+  timestamp: true
+  timestamp_relative: true
+  new_line: true
+  highlight_paths: false
+silly:
+  markdown: true
+  base_logger: log
+  pretty_obj: true
+  pretty_opts:
+    alphabetizeKeys: true
+  timestamp: true
+  timestamp_relative: true
+  new_line: true
+  highlight_paths: false
+log:
+  markdown: true
+  base_logger: log
+  pretty_obj: true
+  pretty_opts: 
+    alphabetizeKeys: true
+    noColor: true
+  timestamp: true
+  timestamp_relative: true
+  new_line: true
+  highlight_paths: false
+
+trace:
+  markdown: false
+  base_logger: trace
+  pretty_obj: true
+  pretty_opts:
+    alphabetizeKeys: true
+  timestamp: true
+  timestamp_relative: true
+  new_line: true
+  highlight_paths: true
+table:
+  markdown: false
+  base_logger: table
+  pretty_obj: true
+  pretty_opts:
+    alphabetizeKeys: true
+  timestamp: true
+  timestamp_relative: true
+  new_line: true
+  highlight_paths: false
