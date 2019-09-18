@@ -8,7 +8,7 @@ success:
   pretty_opts: 
     alphabetizeKeys: false
     noColor: true
-  timestamp: true
+  timestamp: 'YYYY-MM-D H:m:s'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
@@ -19,7 +19,7 @@ error:
   pretty_opts: 
     alphabetizeKeys: false
     noColor: true
-  timestamp: true
+  timestamp: 'YYYY-MM-D H:m:s'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
@@ -29,7 +29,7 @@ warn:
   pretty_obj: false
   pretty_opts: 
     alphabetizeKeys: false
-  timestamp: true
+  timestamp: 'YYYY-MM-D H:m:s'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
@@ -39,7 +39,7 @@ info:
   pretty_obj: true
   pretty_opts:
     alphabetizeKeys: true
-  timestamp: true
+  timestamp: 'H:m:s'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
@@ -50,7 +50,7 @@ verbose:
   pretty_obj: true
   pretty_opts:
     alphabetizeKeys: true
-  timestamp: true
+  timestamp: 'YYYY-MM-D H:m:s'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
@@ -60,7 +60,7 @@ debug:
   pretty_obj: false
   pretty_opts:
     alphabetizeKeys: true
-  timestamp: true
+  timestamp: 'YYYY-MM-D H:m:s'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
@@ -70,7 +70,7 @@ silly:
   pretty_obj: true
   pretty_opts:
     alphabetizeKeys: true
-  timestamp: true
+  timestamp: 'YYYY-MM-D H:m:s'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
@@ -81,7 +81,7 @@ log:
   pretty_opts: 
     alphabetizeKeys: true
     noColor: true
-  timestamp: true
+  timestamp: 'YYYY-MM-D H:m:s'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
@@ -92,7 +92,7 @@ trace:
   pretty_obj: true
   pretty_opts:
     alphabetizeKeys: true
-  timestamp: true
+  timestamp: 'YYYY-MM-D H:m:s'
   timestamp_relative: true
   new_line: true
   highlight_paths: true
@@ -102,7 +102,7 @@ table:
   pretty_obj: true
   pretty_opts:
     alphabetizeKeys: true
-  timestamp: true
+  timestamp: 'YYYY-MM-D H:m:s'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
