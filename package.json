@@ -11,9 +11,14 @@
     "license": "MIT",
     "dependencies": {
         "@mithray/md-terminal": "0.0.1",
+        "change-case": "^3.1.0",
+        "cli-spinners": "^2.2.0",
+        "en-inflectors": "^1.0.12",
+        "log-update": "^3.3.0",
         "moment": "^2.24.0",
         "pretty-ms": "^5.0.0",
         "prettyjson-256": "^1.5.18",
+        "songshu": "0.0.16",
         "strip-ansi": "^5.2.0",
         "yaml": "^1.6.0"
     }

@@ -8,7 +8,7 @@ success:
   pretty_opts: 
     alphabetizeKeys: false
     noColor: true
-  timestamp: 'YYYY-MM-D HH:MM:ss'
+  timestamp: 'HH:MM:ss'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
@@ -19,7 +19,7 @@ error:
   pretty_opts: 
     alphabetizeKeys: false
     noColor: true
-  timestamp: 'YYYY-MM-D HH:MM:ss'
+  timestamp: 'HH:MM:ss'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
@@ -29,7 +29,7 @@ warn:
   pretty_obj: false
   pretty_opts: 
     alphabetizeKeys: false
-  timestamp: 'YYYY-MM-D HH:MM:ss'
+  timestamp: 'HH:MM:ss'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
@@ -50,7 +50,7 @@ verbose:
   pretty_obj: true
   pretty_opts:
     alphabetizeKeys: true
-  timestamp: 'YYYY-MM-D HH:MM:ss'
+  timestamp: 'HH:MM:ss'
   timestamp_relative: true
   new_line: true
   highlight_paths: false
